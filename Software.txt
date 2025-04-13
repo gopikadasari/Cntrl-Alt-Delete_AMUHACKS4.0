@@ -1,0 +1,27 @@
+Kindly Download this Link:
+
+1.https://www.anaconda.com/download
+
+
+Anaconda Navigator - SPyder IDE 3.12
+
+
+Packages Required:
+
+Streamlit
+tensorflow
+keras
+opencv
+
+
+Procedure:
+
+1. Go to start window & Open Anaconda prompt 
+
+2. Type the below commands one by one in Anaconda prompt.
+
+3. pip install tensorflow
+
+4. pip install streamlit
+
+5. pip install opencv-python
