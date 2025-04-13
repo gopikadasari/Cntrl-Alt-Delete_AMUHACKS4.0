@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+</head>
+
+<body>
+  <div class="dropdown">
+  </div>
+  <ul>
+
+    <li>
+      <a class="navbar-brand" href="/">
+        <div class="logo-image">
+          <img src="/static/images/1.png" class="img-fluid">
+        </div>
+      </a>
+    </li>
+    
+    
+	  <li>
+      <a href="#" onclick="setURL('http://localhost:8501/?p=reg')">REGISTER</a>
+    </li>
+    
+	<li>
+      <a href="#" onclick="setURL('http://localhost:8501/?p=Login')">LOGIN</a>
+    </li>  
+    
+  </ul>
+  <iframe src="http://localhost:8501/?p=home" id="streamlit_content" allowfullscreen frameborder="0"
+    wmode="transparent">
+    Your browser doesn't support iframes
+  </iframe>
+  
+
+</body>
+<script>
+  function setURL(url) {
+    document.getElementById('streamlit_content').src = url;
+    console.log('Works!')
+  }
+</script>
+
+</html>
